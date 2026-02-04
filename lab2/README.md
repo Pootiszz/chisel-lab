@@ -197,7 +197,7 @@ the most elegant solution, but other solutions are valid as well.
 
 ### Addition/Subtraction Circuit
 
-As a last exercise you have to build a small arithmetic circuit.
+In the next exercise you have to build a small arithmetic circuit.
 The circuit shall be able to add or subtract two unsigned integer.
 One input (```selAdd```) decides if the two numbers are added or
 subtracted (sounds like a multiplexer). The test is called as:
@@ -208,3 +208,20 @@ subtracted (sounds like a multiplexer). The test is called as:
 
 The file for your solution is ```AddSub```.
 
+### A Maximum Finder
+
+The next exercise is to build a circuit that finds the maximum
+among four unsigned integers. The test for this module is called as:
+
+```
+ sbt "testOnly MaxFinderSpec"
+```
+
+A skeleton for a solution can be found in  ```MaxFinder.scala```. You will have to use multiplexers to select between the four inputs `a`, `b`, `c`, and `d`. Use the `Mux(sel, trueCase, falseCase)` function. Each time you use `Mux`, you create a new multiplexer; how many do you need to find the largest number? To compare two numbers, you can use the greater-than operator `>`. What kind of circuit does this create, and how many comparators are needed?
+
+#### Optional: Providing the index of the Maximum
+
+As an optional exercise, you can extend the maximum finder to also
+provide the index of the maximum value. For example, if input `c`
+is the largest value, the output index shall be `2` (assuming
+`a` has index `0`, `b` index `1`, `c` index `2`, and `d` index `3`). What additional resources do you need to provide this functionality? To check your behavior, you can modify the existing test `MaxFinderSpec` to also check the index output. Adding the index adds some ambiguity: what if two or more inputs have the same maximum value? 

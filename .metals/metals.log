@@ -33,3 +33,8 @@ INFO: Unsupported notification method: $/setTrace
 2026.02.05 13:12:03 WARN  2.13.14 is no longer supported in the current Metals versions, using the last known supported version 1.6.3
 2026.02.05 13:12:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.02.05 13:12:37 INFO  time: indexed workspace in 33s
+2026.02.05 13:51:43 INFO  Shutting down server
+2026.02.05 13:51:43 INFO  Memory monitor stopped
+2026.02.05 13:51:43 INFO  shutting down Metals
+2026.02.05 13:51:43 INFO  Shut down connection with build server.
+2026.02.05 13:51:43 INFO  Exiting server

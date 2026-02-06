@@ -38,3 +38,50 @@ INFO: Unsupported notification method: $/setTrace
 2026.02.05 13:51:43 INFO  shutting down Metals
 2026.02.05 13:51:43 INFO  Shut down connection with build server.
 2026.02.05 13:51:43 INFO  Exiting server
+2026.02.05 14:07:50 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\mikke\OneDrive\Desktop\DTU\02112 Embedded systems programming\chisel-lab' for client Visual Studio Code 1.109.0.
+2026.02.05 14:07:50 INFO  Memory monitor started
+2026.02.05 14:07:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.05 14:07:51 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02112 Embedded systems programming\chisel-lab\lab1\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.05 14:07:59 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02112 Embedded systems programming\chisel-lab\lab1\src\main\scala\Hello.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.05 14:07:59 INFO  Attempting to connect to the build server...
+2026.02.05 14:07:59 INFO  Found a Bloop server running
+2026.02.05 14:07:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\mikke\OneDrive\Desktop\DTU\02112 Embedded systems programming\chisel-lab\.metals\bsp.trace.json or C:\Users\mikke\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.05 14:07:59 INFO  time: Connected to build server in 0.65s
+2026.02.05 14:07:59 INFO  Connected to Build server: Bloop v2.0.18
+2026.02.05 14:08:00 INFO  time: Imported build in 0.29s
+2026.02.05 14:08:00 WARN  2.13.14 is no longer supported in the current Metals versions, using the last known supported version 1.6.3
+2026.02.05 14:08:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.05 14:08:13 INFO  time: indexed workspace in 13s
+2026.02.05 14:08:18 INFO  compiling lab1 (1 scala source)
+2026.02.05 14:08:40 INFO  compiling lab1-test (1 scala source)
+2026.02.05 14:08:42 INFO  time: compiled lab1 in 24s
+2026.02.05 14:08:50 INFO  time: compiled lab1-test in 10s
+2026.02.05 14:43:08 INFO  compiling lab1 (1 scala source)
+2026.02.05 14:43:24 INFO  time: compiled lab1 in 16s
+2026.02.05 14:44:34 INFO  compiling lab1 (1 scala source)
+2026.02.05 14:44:42 INFO  time: compiled lab1 in 8.12s
+Feb 05, 2026 4:14:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 138
+Feb 05, 2026 4:14:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+Feb 05, 2026 4:14:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 4:29:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 7:18:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 7:48:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 10:03:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 10:03:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 05, 2026 11:04:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 06, 2026 8:08:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.02.06 08:18:41 INFO  Shutting down server
+2026.02.06 08:18:41 INFO  Memory monitor stopped
+2026.02.06 08:18:41 INFO  shutting down Metals
+2026.02.06 08:18:42 INFO  Shut down connection with build server.
+2026.02.06 08:18:42 INFO  Exiting server

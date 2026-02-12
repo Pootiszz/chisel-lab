@@ -17,7 +17,9 @@ class MaxFinder extends Module {
 
   // ***** your code starts here *****
 
-  // max := ????
+  max :=  Mux(a >= b && a >= c && a >= d, a,
+          Mux(b >= a && b >= c && b >= d, b,
+          Mux(c >= a && c >= b && c >= d, c,d)))
 
   // ***** your code ends here *****
 

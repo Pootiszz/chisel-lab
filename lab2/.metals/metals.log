@@ -526,3 +526,4 @@ INFO: Unsupported notification method: $/setTrace
 2026.02.12 14:15:44 WARN  no build target for: C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab2\src\main\scala\MaxFinder.scala
 2026.02.12 14:15:44 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab2\src\main\scala\MaxFinder.scala. Using presentation compiler with project's scala-library version: 3.3.7
 2026.02.12 14:15:44 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab2\src\main\scala\MaxFinder.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.12 14:16:46 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab2\src\main\scala\MaxFinder.scala. Using presentation compiler with project's scala-library version: 3.3.7

@@ -52,7 +52,7 @@ Run the test for the 4:1 multiplexer with:
 
 ```
 sbt "testOnly Mux4Spec"
-```
+``` 
 
 ## Small Sequential Circuits
 

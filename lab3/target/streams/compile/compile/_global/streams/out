@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\src\main\scala\Accu.scala:17:3: not found: value sumReg[0m
+[0m[[0m[31merror[0m] [0m[0m  sumReg := Mux(io.setZero, 0.U, sumReg + io.din)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\src\main\scala\Accu.scala:17:34: not found: value sumReg[0m
+[0m[[0m[31merror[0m] [0m[0m  sumReg := Mux(io.setZero, 0.U, sumReg + io.din)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\src\main\scala\Accu.scala:19:3: not found: value sumReg[0m
+[0m[[0m[31merror[0m] [0m[0m  sumReg := res[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -1,0 +1,37 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\lab3_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Accu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Accu$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Accu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Accu.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count15$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Count15$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Count15.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count6$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Count6$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Count6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Delay$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Delay$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Delay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Delay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux4$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux4Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux4Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\Mux4Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UseMux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\UseMux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UseMux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab3\target\scala-2.13\classes\UseMux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

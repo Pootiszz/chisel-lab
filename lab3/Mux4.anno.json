@@ -27,9 +27,13 @@
   },
   {
     "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~Mux4|Mux4>io_led",
+    "sink":"~Mux4|Mux4>io_y",
     "sources":[
-      "~Mux4|Mux4>io_sw"
+      "~Mux4|Mux4>io_sel",
+      "~Mux4|Mux4>io_d",
+      "~Mux4|Mux4>io_c",
+      "~Mux4|Mux4>io_b",
+      "~Mux4|Mux4>io_a"
     ]
   }
 ]

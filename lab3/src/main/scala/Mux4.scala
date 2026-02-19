@@ -6,8 +6,14 @@ import chisel3._
 
 class Mux4 extends Module {
   val io = IO(new Bundle {
-    val sw  = Input(UInt(16.W))  // Map to io_sw
-    val led = Output(UInt(16.W)) // Map to io_led
+    val a = Input(UInt(1.W))
+    val b = Input(UInt(1.W))
+    val c = Input(UInt(1.W))
+    val d = Input(UInt(1.W))
+    val sel = Input(UInt(2.W))
+    val y = Output(UInt(1.W))
+
+
   })
 
   // ***** your code starts here *****
@@ -19,20 +25,26 @@ class Mux4 extends Module {
   val mB = Module(new Mux2()) // 10, 11
   val mOut = Module (new Mux2()) // Vælg om det er "1"0 eller "0"0 osv.
 
-  mA.io.a := io.sw(0)
-  mA.io.b := io.sw(1)
-  mA.io.sel := io.sw(4)
+  mA.io.a := io.a
+  mA.io.b := io.b
+  mA.io.sel := io.sel(0)
 
-  mB.io.a := io.sw(2)
-  mB.io.b := io.sw(3)
-  mB.io.sel := io.sw(4)
+  mB.io.a := io.c
+  mB.io.b := io.d
+  mB.io.sel := io.sel(0)
 
 
   mOut.io.a := mA.io.y
   mOut.io.b := mB.io.y
-  mOut.io.sel := io.sw(5)
+  mOut.io.sel := io.sel(1)
 
-  io.led := mOut.io.y 
+  io.y := mOut.io.y 
 
   // ***** your code ends here *****
+
+ 
+}
+
+object Mux4Main extends App {
+  emitVerilog(new Mux4())
 }

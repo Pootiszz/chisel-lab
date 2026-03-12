@@ -8520,3 +8520,24 @@ WARNING: Unmatched cancel notification for request id 3942
 2026.03.05 13:39:15 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
 2026.03.05 13:39:15 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
 2026.03.05 13:39:15 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.03.08 22:29:58 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.03.08 22:29:58 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+Mar 08, 2026 10:29:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Mar 08, 2026 10:29:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2026.03.08 22:29:58 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.03.10 15:38:04 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.03.10 15:38:04 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.03.10 15:38:04 INFO  no build target found for C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\src\main\scala\CountSevenSeg.scala. Using presentation compiler with project's scala-library version: 2.13.18
+Mar 10, 2026 3:38:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Mar 10, 2026 3:38:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Mar 12, 2026 10:12:41 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.03.12 10:13:07 INFO  Shutting down server
+2026.03.12 10:13:07 INFO  Memory monitor stopped
+2026.03.12 10:13:07 INFO  shutting down Metals
+2026.03.12 10:13:08 INFO  Shut down connection with build server.
+2026.03.12 10:13:07 INFO  Exiting server

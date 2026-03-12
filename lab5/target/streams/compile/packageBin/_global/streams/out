@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\lab5_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountSevenSeg$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\CountSevenSeg$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountSevenSeg$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\CountSevenSeg$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountSevenSeg$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\CountSevenSeg$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CountSevenSeg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\CountSevenSeg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDecoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\SevenSegDecoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDecoder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\SevenSegDecoder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDecoder$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\SevenSegDecoder$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SevenSegDecoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab5\target\scala-2.13\classes\SevenSegDecoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

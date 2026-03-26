@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab6\src\main\scala\DisplayMultiplexer.scala:22:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m  displayReg := Mux(displayReg == (maxCount - 1).U, 0.U, displayReg + 1.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab6\src\main\scala\DisplayMultiplexer.scala:24:19: unknown parameter name: displayReg[0m
+[0m[[0m[31merror[0m] [0m[0m  when(displayReg = 0.U) {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

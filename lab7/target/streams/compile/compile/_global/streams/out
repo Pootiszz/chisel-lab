@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mikke\OneDrive\Desktop\DTU\02139 Digital Electronics 2\chisel-lab\lab7\src\main\scala\SerialPort.scala:48:46: not found: value frequ[0m
+[0m[[0m[31merror[0m] [0m[0m  println(s"Generating the Verilog file for $frequ Hz")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

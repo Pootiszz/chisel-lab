@@ -270,7 +270,9 @@ module SerialPort(
   wire [6:0] _GEN_11 = 4'h9 == cntReg ? 7'h6c : _GEN_10; // @[\\src\\main\\scala\\SerialPort.scala 35:{24,24}]
   wire [6:0] _GEN_12 = 4'ha == cntReg ? 7'h64 : _GEN_11; // @[\\src\\main\\scala\\SerialPort.scala 35:{24,24}]
   wire [6:0] _GEN_13 = 4'hb == cntReg ? 7'h21 : _GEN_12; // @[\\src\\main\\scala\\SerialPort.scala 35:{24,24}]
-  wire [3:0] _cntReg_T_1 = cntReg + 4'h1; // @[\\src\\main\\scala\\SerialPort.scala 41:24]
+  wire [6:0] _GEN_14 = 4'hc == cntReg ? 7'ha : _GEN_13; // @[\\src\\main\\scala\\SerialPort.scala 35:{24,24}]
+  wire [6:0] _GEN_15 = 4'hd == cntReg ? 7'hd : _GEN_14; // @[\\src\\main\\scala\\SerialPort.scala 35:{24,24}]
+  wire [3:0] _cntReg_T_1 = cntReg + 4'h1; // @[\\src\\main\\scala\\SerialPort.scala 42:24]
   BufferedTx uart ( // @[\\src\\main\\scala\\SerialPort.scala 26:19]
     .clock(uart_clock),
     .reset(uart_reset),
@@ -283,8 +285,8 @@ module SerialPort(
   assign io_led = blkReg; // @[\\src\\main\\scala\\SerialPort.scala 23:10]
   assign uart_clock = clock;
   assign uart_reset = reset;
-  assign uart_io_channel_valid = cntReg < 4'hc; // @[\\src\\main\\scala\\SerialPort.scala 38:15]
-  assign uart_io_channel_bits = {{1'd0}, _GEN_13}; // @[\\src\\main\\scala\\SerialPort.scala 35:24]
+  assign uart_io_channel_valid = cntReg < 4'he; // @[\\src\\main\\scala\\SerialPort.scala 39:15]
+  assign uart_io_channel_bits = {{1'd0}, _GEN_15}; // @[\\src\\main\\scala\\SerialPort.scala 35:24]
   always @(posedge clock) begin
     if (reset) begin // @[\\src\\main\\scala\\SerialPort.scala 15:26]
       cntRegLED <= 32'h0; // @[\\src\\main\\scala\\SerialPort.scala 15:26]
@@ -300,9 +302,9 @@ module SerialPort(
     end
     if (reset) begin // @[\\src\\main\\scala\\SerialPort.scala 29:23]
       cntReg <= 4'h0; // @[\\src\\main\\scala\\SerialPort.scala 29:23]
-    end else if (cntReg < 4'hc) begin // @[\\src\\main\\scala\\SerialPort.scala 38:23]
-      if (uart_io_channel_ready) begin // @[\\src\\main\\scala\\SerialPort.scala 40:33]
-        cntReg <= _cntReg_T_1; // @[\\src\\main\\scala\\SerialPort.scala 41:14]
+    end else if (cntReg < 4'he) begin // @[\\src\\main\\scala\\SerialPort.scala 39:33]
+      if (uart_io_channel_ready) begin // @[\\src\\main\\scala\\SerialPort.scala 41:33]
+        cntReg <= _cntReg_T_1; // @[\\src\\main\\scala\\SerialPort.scala 42:14]
       end
     end
   end

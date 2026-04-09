@@ -23,9 +23,8 @@ class SerialPort(frequ: Int) extends Module {
   io.led := blkReg
 
 
- val uart = Module(new BufferedTx(frequ, 115200))
-
-  val hello = VecInit('H'.U, 'e'.U, 'l'.U, 'l'.U, 'o'.U, ' '.U, 'W'.U, 'o'.U, 'r'.U, 'l'.U, 'd'.U, '!'.U)
+  val uart = Module(new BufferedTx(frequ, 115200))
+  val hello = VecInit('H'.U, 'e'.U, 'l'.U, 'l'.U, 'o'.U, ' '.U, 'W'.U, 'o'.U, 'r'.U, 'l'.U, 'd'.U, '!'.U, '\n'.U, '\r'.U)
   val cntReg = RegInit(0.U(4.W)) // hello world er 12 tegn så 16 bits
   io.tx := uart.io.txd
 
@@ -35,12 +34,13 @@ class SerialPort(frequ: Int) extends Module {
   uart.io.channel.bits := hello(cntReg)
 
 // husk at gøre den ready når den er valid inden man sender
-  when(cntReg < 12.U) { 
+
+  when(cntReg < hello.length.U) {
     uart.io.channel.valid := true.B
     when(uart.io.channel.ready) {
       cntReg := cntReg + 1.U
     }
-  } 
+  }
 }
 
 // generate Verilog
@@ -49,3 +49,4 @@ object SerialPort extends App {
   emitVerilog(new SerialPort(100000000))
   println("Done!")
 }
+

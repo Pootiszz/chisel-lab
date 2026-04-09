@@ -102,7 +102,7 @@ circuit SerialPort :
     inst uart of BufferedTx @[\\src\\main\\scala\\SerialPort.scala 26:19]
     uart.clock <= clock
     uart.reset <= reset
-    wire hello : UInt<7>[12] @[\\src\\main\\scala\\SerialPort.scala 28:22]
+    wire hello : UInt<7>[14] @[\\src\\main\\scala\\SerialPort.scala 28:22]
     hello[0] <= UInt<7>("h48") @[\\src\\main\\scala\\SerialPort.scala 28:22]
     hello[1] <= UInt<7>("h65") @[\\src\\main\\scala\\SerialPort.scala 28:22]
     hello[2] <= UInt<7>("h6c") @[\\src\\main\\scala\\SerialPort.scala 28:22]
@@ -115,17 +115,19 @@ circuit SerialPort :
     hello[9] <= UInt<7>("h6c") @[\\src\\main\\scala\\SerialPort.scala 28:22]
     hello[10] <= UInt<7>("h64") @[\\src\\main\\scala\\SerialPort.scala 28:22]
     hello[11] <= UInt<6>("h21") @[\\src\\main\\scala\\SerialPort.scala 28:22]
+    hello[12] <= UInt<4>("ha") @[\\src\\main\\scala\\SerialPort.scala 28:22]
+    hello[13] <= UInt<4>("hd") @[\\src\\main\\scala\\SerialPort.scala 28:22]
     reg cntReg : UInt<4>, clock with :
       reset => (reset, UInt<4>("h0")) @[\\src\\main\\scala\\SerialPort.scala 29:23]
     io.tx <= uart.io.txd @[\\src\\main\\scala\\SerialPort.scala 30:9]
     uart.io.channel.valid <= UInt<1>("h0") @[\\src\\main\\scala\\SerialPort.scala 34:25]
     uart.io.channel.bits <= hello[cntReg] @[\\src\\main\\scala\\SerialPort.scala 35:24]
-    node _T_1 = lt(cntReg, UInt<4>("hc")) @[\\src\\main\\scala\\SerialPort.scala 38:15]
-    when _T_1 : @[\\src\\main\\scala\\SerialPort.scala 38:23]
-      uart.io.channel.valid <= UInt<1>("h1") @[\\src\\main\\scala\\SerialPort.scala 39:27]
-      when uart.io.channel.ready : @[\\src\\main\\scala\\SerialPort.scala 40:33]
-        node _cntReg_T = add(cntReg, UInt<1>("h1")) @[\\src\\main\\scala\\SerialPort.scala 41:24]
-        node _cntReg_T_1 = tail(_cntReg_T, 1) @[\\src\\main\\scala\\SerialPort.scala 41:24]
-        cntReg <= _cntReg_T_1 @[\\src\\main\\scala\\SerialPort.scala 41:14]
+    node _T_1 = lt(cntReg, UInt<4>("he")) @[\\src\\main\\scala\\SerialPort.scala 39:15]
+    when _T_1 : @[\\src\\main\\scala\\SerialPort.scala 39:33]
+      uart.io.channel.valid <= UInt<1>("h1") @[\\src\\main\\scala\\SerialPort.scala 40:27]
+      when uart.io.channel.ready : @[\\src\\main\\scala\\SerialPort.scala 41:33]
+        node _cntReg_T = add(cntReg, UInt<1>("h1")) @[\\src\\main\\scala\\SerialPort.scala 42:24]
+        node _cntReg_T_1 = tail(_cntReg_T, 1) @[\\src\\main\\scala\\SerialPort.scala 42:24]
+        cntReg <= _cntReg_T_1 @[\\src\\main\\scala\\SerialPort.scala 42:14]
 
 

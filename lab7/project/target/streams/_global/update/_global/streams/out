@@ -1,3 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
-[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/C:/Users/mikke/OneDrive/Desktop/DTU/02139%20Digital%20Electronics%202/chisel-lab/lab7/project/"), "lab7-build")...[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/C:/Users/mikke/OneDrive/Desktop/DTU/02139%20Digital%20Electronics%202/chisel-lab/lab7/project/"), "lab7-build")[0m
+[warn] jline-2.14.6.jar no longer exists at C:\Users\mikke\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/mikke/Documents/GitHub/chisel-lab/lab7/project/"), "lab7-build")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/mikke/Documents/GitHub/chisel-lab/lab7/project/"), "lab7-build")

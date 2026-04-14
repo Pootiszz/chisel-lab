@@ -1,0 +1,155 @@
+$date
+2026-04-12T13:35+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module VendingMachine $end
+ $var wire 1 " vending $end
+ $var wire 7 # io_seg $end
+ $var wire 1 % clock $end
+ $var wire 1 & io_alarm $end
+ $var wire 1 ) io_releaseCan $end
+ $var wire 1 + io_buy $end
+ $var wire 1 , reset $end
+ $var wire 1 - io_coin5 $end
+ $var wire 1 / io_coin2 $end
+ $var wire 5 1 io_price $end
+ $var wire 4 3 io_an $end
+  $scope module vending $end
+   $var wire 7 ! seg $end
+   $var wire 4 $ an $end
+   $var wire 1 ' alarm $end
+   $var wire 1 ( buy $end
+   $var wire 1 * releaseCan $end
+   $var wire 1 . coin5 $end
+   $var wire 1 0 coin2 $end
+   $var wire 5 2 price $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 $
+00
+b00000 2
+b0000000 #
+0"
+b0000 3
+0%
+0&
+b0000000 !
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+b00000 1
+0/
+$end
+#0
+1,
+#1
+1%
+#6
+0%
+1,
+#11
+1%
+#16
+0%
+#21
+1%
+#26
+0%
+0,
+#31
+1%
+#36
+10
+b00111 1
+b00111 2
+0%
+1/
+#41
+1%
+#46
+00
+0%
+0/
+#51
+1%
+#56
+0%
+1-
+1.
+#61
+1%
+#66
+0%
+#71
+1%
+#76
+0%
+#81
+1%
+#86
+0%
+#91
+1%
+#96
+0%
+#101
+1%
+#106
+0%
+0-
+0.
+#111
+1%
+#116
+0%
+#121
+1%
+#126
+0%
+#131
+1%
+#136
+0%
+#141
+1%
+#146
+0%
+#151
+1%
+#156
+0%
+1(
+1+
+#161
+1%
+#166
+0%
+#171
+1%
+#176
+0%
+#181
+1%
+#186
+0%
+#191
+1%
+#196
+0%
+#201
+1%
+#206
+0%

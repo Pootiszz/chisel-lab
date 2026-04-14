@@ -43,7 +43,7 @@ class VendingMachine(maxCount: Int) extends Module {
   })
 
   // Switch between the two vending machines here.
-  val vending = Module(new BlackVendingA)
+   val vending = Module(new BlackVendingA)
   // val vending = Module(new BlackVendingB)
   vending.io <> io
 }

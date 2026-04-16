@@ -18,6 +18,7 @@ class VendingMachine(maxCount: Int) extends Module {
   val totalMoney = RegInit(0.U(8.W)) // 8 bits, 0 to 99
   val onesDigit = totalMoney % 10.U // right digit
   val tensDigit = (totalMoney / 10.U) % 10.U // left digit
+  
 
   val priceOnes = io.price % 10.U
   val priceTens = (io.price / 10.U) % 10.U
